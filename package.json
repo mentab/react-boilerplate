@@ -9,7 +9,8 @@
     "build-babel-server": "babel src/server --out-dir ./dist",
     "build-babel-client": "babel src/client --copy-files --out-dir ./dist/public",
     "start": "node ./dist/server.js",
-    "test": "jest ./src"
+    "test": "jest ./src",
+    "clean": "rimraf dist node_modules"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   "homepage": "https://github.com/mentab/react-boilerplate#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "rimraf": "^2.6.2",
     "webpack": "^3.12.0"
   },
   "devDependencies": {
