@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/mentab/react-boilerplate#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
